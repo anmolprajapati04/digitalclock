@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anmolprajapati04/digitalclock.git/static/css/main.ad52d743.css",
+    "main.js": "/anmolprajapati04/digitalclock.git/static/js/main.06b4f2af.js",
+    "static/js/453.ed3810f9.chunk.js": "/anmolprajapati04/digitalclock.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/anmolprajapati04/digitalclock.git/index.html",
+    "main.ad52d743.css.map": "/anmolprajapati04/digitalclock.git/static/css/main.ad52d743.css.map",
+    "main.06b4f2af.js.map": "/anmolprajapati04/digitalclock.git/static/js/main.06b4f2af.js.map",
+    "453.ed3810f9.chunk.js.map": "/anmolprajapati04/digitalclock.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad52d743.css",
+    "static/js/main.06b4f2af.js"
+  ]
+}
