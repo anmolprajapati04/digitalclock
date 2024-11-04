@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle, #74b9ff, #a29bfe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.game:hover {
+  transform: scale(1.03);
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #2d3436;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: 2px solid #2d3436;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.square-X {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.square-O {
+  background-color: #74b9ff;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.square:hover {
+  background-color: #dfe6e9;
+  transform: scale(1.1);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.move-button {
+  background-color: #55efc4;
+  border: none;
+  color: #2d3436;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.move-button:hover {
+  background-color: #00b894;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .game {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .square {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    margin: 8px;
+  }
+
+  .status {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .move-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+  
+  
